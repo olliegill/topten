@@ -20,7 +20,7 @@ html, body{
   text-align: center;
 
   @include media($mobile) {
-    height: 900px;
+    height: 670px; //900px;
   }
 
   h2{
@@ -31,12 +31,14 @@ html, body{
     text-transform: uppercase;
     padding: .5em;
     font-family: 'Roboto', sans-serif;
+  //  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     @include media($tablet) {
       font-size: 5rem;
     }
 
     @include media($mobile) {
       font-size: 2.8rem;
+      margin-top: 50px;
     }
   }
 }
@@ -51,7 +53,7 @@ h3 {
   }
 
   @include media($mobile) {
-    margin-top: 250px;
+    margin-top: -50px;
     font-size: 1.8rem;
   }
 }
